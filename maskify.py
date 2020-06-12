@@ -1,7 +1,6 @@
 def maskify(text):   
     i = len(text) - 4
-    print(text.replace(text[0:-4], '#'*i))
-    pass 
+    return text.replace(text[0:-4], '#'*i)
 
 
 maskify('teste meu gato')
